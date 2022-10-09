@@ -1,8 +1,3 @@
-
-
-from asyncio.windows_events import NULL
-
-
 numbers = [5, 20, 30, 35, 50]
 
 insval = int(input('Enter the insertion value: '))
