@@ -6,11 +6,11 @@ insval = int(input('Enter the insertion value: '))
 # ******************************
 # Make your Code
 # ******************************
+index = -1
 for i in range(len(numbers)):
     if(insval <= numbers[i]):
         index = i
         break
-numbers.insert(index,insval)
-
-print(index)
+if index != -1:
+    numbers.insert(index,insval)
 print (numbers)
